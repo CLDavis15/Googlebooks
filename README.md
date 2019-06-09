@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,25 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+
+# Create React Express App
+## About This Boilerplate
+This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+
+The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+
+## Starting the app locally
+Start by installing front and backend dependencies. While in this directory, run the following command:
+
+<addr> yarn install
+This should install node modules within the server and the client folder.
+
+After both installations complete, run the following command in your terminal:
+
+<addr> yarn start
+Your app should now be running on http://localhost:3000. The Express server should intercept any AJAX requests from the client.
+
+# Deployment (Heroku)
+To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+>>>>>>> c1f6ed77a1cf1983f1c288a4802f49f59b8e0374
