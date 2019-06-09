@@ -6,12 +6,12 @@ export default {
     return axios.get("/api/books");
   },
   // Gets the book with the given id
-  searchBook: (id) => {
-    return axios.get("/search" + id);
+  searchBook: (_id) => {
+    return axios.get("/search" + _id);
   },
   // Deletes the book with the given id
-  deleteBook: (id) => {
-    return axios.delete("/api/books/" + id);
+  deleteBook: (_id) => {
+    return axios.delete("/api/books/" + _id);
   },
   // Saves a book to the database
   addBook: (bookData) => {
